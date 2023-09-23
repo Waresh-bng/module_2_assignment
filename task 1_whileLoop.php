@@ -1,6 +1,9 @@
 <?php
 function evenNumberFunction($x, $y, $z) {
     $i = $x;
+    if($i==1){
+        $i=$i+1;
+    }
     while ($i <= $y) {
         echo $i . " ";
         $i += $z;

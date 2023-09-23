@@ -1,6 +1,9 @@
 <?php
 function evenNumberFunction($x, $y, $z) {
     $i = $x;
+    if($i==1){
+        $i=$i+1;
+    }
     do {
         echo $i . " ";
         $i += $z;
@@ -8,6 +11,6 @@ function evenNumberFunction($x, $y, $z) {
 }
 
 // Call the function to print even numbers
-evenNumberFunction(2, 20, 2);
+evenNumberFunction(1, 20, 2);
 
 ?>

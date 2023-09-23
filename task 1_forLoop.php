@@ -1,11 +1,14 @@
 <?php
 function evenNumberFunction($x, $y, $z) {
+    if($x==1){
+        $x=$x+1;
+    }
     for ($i = $x; $i <= $y; $i += $z) {
         echo $i . " ";
     }
 }
 
 // Call the function to print even numbers
-evenNumberFunction(2, 20, 2);
+evenNumberFunction(1, 20, 2);
 
 ?>
